@@ -33,4 +33,5 @@ What we write in this file is automatically added everytime in the script we cre
 
 This allows for endless customization with templates, especially significantly more convenient for ScriptableObjects and editor scripts that requires standard implementation you wouldn't need to rewrite anymore.
 When you are done writing the templates and imported them to the correct folder, `Assets/ScriptTemplates`, you have to restart the editor in order to initialize them.
-I have attached a zip files of my personal templates as examples. Good luck!
+
+Good luck!
