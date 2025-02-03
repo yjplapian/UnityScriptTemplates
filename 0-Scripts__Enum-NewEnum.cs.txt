@@ -1,9 +1,0 @@
-using System;
-
-    #ROOTNAMESPACEBEGIN#
-//[Flags]
-public enum #SCRIPTNAME#
-{
-
-}
-#ROOTNAMESPACEEND#
