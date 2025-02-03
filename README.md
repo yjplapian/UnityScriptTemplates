@@ -7,7 +7,7 @@ The naming convention of the script templates following a very specific order; `
 * `order` like an array, the position of the button in the context menu.\
 `context menu group name` the label of the button that contains the button that is used to create the script.\
 `context menu name` the label of the button that is used to create a new script.\
-`file name` the standard name given to the script when it is created in the project.\
+`file name` the standard name given to the script when it is created in the project.
 
 Lets take an example for a ScriptableObject: Lets create a .txt file on your desktop named: 0-Scripts__ScriptableObject-NewScriptableObject.cs
 
@@ -29,7 +29,7 @@ What we write in this file is automatically added everytime in the script we cre
 
 `#ROOTNAMESPACEBEGIN#` : This is the starting line of your global namespace of your project or the namespace of your assembly.\
 `#ROOTNAMESPACEEND#` : This closes the namespace with a curly bracket.\
-`#SCRIPTNAME#` : As the name suggests, this names your script correctly to the name of the file in your project.\
+`#SCRIPTNAME#` : As the name suggests, this names your script correctly to the name of the file in your project.
 
 This allows for endless customization with templates, especially significantly more convenient for ScriptableObjects and editor scripts that requires standard implementation you wouldn't need to rewrite anymore.
 When you are done writing the templates and imported them to the correct folder, `Assets/ScriptTemplates`, you have to restart the editor in order to initialize them.
